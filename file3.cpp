@@ -9,7 +9,6 @@ namespace sycs4
         std::cout<<"sum of two numbers is"<<(a+b);
         return 0;
     }
-   
+   int sub
     
 }
-
