@@ -8,7 +8,7 @@ int main()
     cout << "Enter a number: ";
     cin >> num;
 
-    if(num)
+    if(num%2)
         cout << "True";
     else
         cout << "False";
