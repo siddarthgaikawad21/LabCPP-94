@@ -3,13 +3,13 @@ int main()
 {
 int n;
 int i = 1;
-std::cout << "Enter a number (n): ";
-std::cin >> n;
-std::cout << "Natural numbers up to " << n << ":" << std::endl;
+cout << "Enter a number (n): ";
+cin >> n;
+cout << "Natural numbers up to " << n << ":" << endl;
 while (i <= n) 
 {
-std::cout << i << " ";
+cout << i << " ";
 i++;
 }
-std::cout << std::endl;return 0;
+cout << endl;return 0;
 }
