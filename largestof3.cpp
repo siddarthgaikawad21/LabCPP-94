@@ -1,14 +1,14 @@
 #include <iostream>
 int main() {
     int a, b, c;
-    std::cout << "Enter three numbers: ";
-    std::cin >> a >> b >> c;
+    cout << "Enter three numbers: ";
+    cin >> a >> b >> c;
     if (a >= b && a >= c) {
-        std::cout << "Largest number is: " << a << std::endl;
+        cout << "Largest number is: " << a << endl;
     } else if (b >= a && b >= c) {
-        std::cout << "Largest number is: " << b << std::endl;
+    cout << "Largest number is: " << b << endl;
     } else {
-        std::cout << "Largest number is: " << c << std::endl;
+        cout << "Largest number is: " << c << endl;
     }
     return 0;
 }
