@@ -11,7 +11,7 @@ class Student
 public:
     void getdata()
     {
-        cout << "\n-----------------------------------------";
+        cout << "\n----------";
         cout << "\nEnter Roll No. : ";
         cin >> roll;
 
@@ -21,9 +21,9 @@ public:
 
     void putdata()
     {
-        cout << "\n-----------------------------------------";
+        cout << "\n-----------";
         cout << "\n********** Student Marklist **********";
-        cout << "\n-----------------------------------------";
+        cout << "\n-----------";
 
         cout << "\nRoll No. : " << roll;
         cout << "\nStudent Name : " << name << endl;
