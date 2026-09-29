@@ -4,15 +4,13 @@ class MyClass {
 private: 
 int value; // Private member to store the value 
 public: 
-// Constructor to initialize MyClass objects 
+// Constructor to initialize MyClass objects 2
 MyClass(int val) 
 : value(val) 
 {
 } 
-// Overloading the equality operator (==) 
 bool operator==(const MyClass& other) const 
 { 
-// Compare the value of this object with the value of 'other' 
 return value == other.value; 
 } 
 // Overloading the inequality operator (!=) 
