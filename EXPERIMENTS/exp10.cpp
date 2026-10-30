@@ -3,13 +3,12 @@
 #include <string>
 
 using namespace std;
-
 int main()
 {
     ofstream fout;
     string line;
 
-    fout.open("sample.txt");
+    fout.open("sample.txt", ios::app);  
     
     // Check if the file failed to open
     if (!fout.is_open()) {
